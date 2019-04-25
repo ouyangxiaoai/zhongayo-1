@@ -1,0 +1,221 @@
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+body{
+    font:14px/1.6 Helvetica Neue,Microsoft YaHei,Tahoma,Helvetica,Arial,\\5B8B\4F53,sans-serif;
+    color: #666;
+}
+html, body, div,p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+img {
+    object-fit: cover;
+}
+/**
+750px设计稿
+    取1rem=100px为参照，那么html元素的宽度就可以设置为width: 7.5rem，于是html的font-size=deviceWidth / 7.5
+**/
+html {
+    font-size: 13.33333vw
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 42.667px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width:360px) {
+    html {
+        font-size: 48px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width:375px) {
+    html {
+        font-size: 50px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width:393px) {
+    html {
+        font-size: 52.4px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 394px) and (max-width:412px) {
+    html {
+        font-size: 54.93px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 413px) and (max-width:414px) {
+    html {
+        font-size: 55.2px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width:480px) {
+    html {
+        font-size: 64px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:540px) {
+    html {
+        font-size: 72px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width:640px) {
+    html {
+        font-size: 85.33px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width:720px) {
+    html {
+        font-size: 96px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width:768px) {
+    html {
+        font-size: 102.4px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 769px) {
+    html {
+        font-size: 102.4px;
+        font-size: 13.33333vw
+    }
+}
+
+@media screen and (min-width: 769px) {
+    html {
+        font-size: 102.4px;
+    }
+    #container {
+       margin: 0 auto;
+       width: 768px;
+    }
+
+}
+/* 
+* rem样式
+*/
+.header {
+    width: 4rem;
+    margin: .3rem auto;
+    padding: .2rem 0;
+    background-color: #ffbdba;
+    text-align: center;
+    font-size: .18rem;
+}
+.title-1 {
+    padding: .05rem .4rem;
+    word-break: break-all;
+    font-weight: bold;
+}
+.video {
+    text-align: center;
+    margin: .15rem auto;    
+}
+.code-1 {
+    margin: .2rem .4rem;
+    padding: .3rem .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #2065b3;
+}
+.code-1>img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.code-1>div{
+    max-width: 60%;
+    margin-left: .5rem;
+}
+.code-1 p {
+    word-break: break-all;
+}
+.code-1 .sao {
+    font-size: .4rem;
+    border-bottom: 0.01rem solid #fff;
+    margin-bottom: .2rem;
+    padding-bottom: .1rem;
+}
+.talk-1 {
+    text-align: center;
+}
+.talk-1 img {
+    height: 100%;
+    object-fit: cover;
+}
+.text-1 {
+    padding: .1rem .4rem;
+}
+.text-1 p{
+    font-weight: bold;
+}
+.red{
+    color: red;
+    margin: .2rem 0;
+}
+.blue {
+    color: #4d8ff3;
+    font-weight: bold;
+    margin: .2rem 0;
+}
+.bold {
+    font-weight: bold;
+    margin: .2rem 0;
+}
+.text-1 div{
+    text-align: center;
+    margin-top: .1rem;
+}
+.block {
+    display: block;
+    padding: 0 .4rem;
+}
+.list div{
+    padding: .05rem 0;
+}
+.marginTop {
+    margin-top: .4rem;
+}
+.img {
+    text-align: center;
+    margin: .1rem 0;
+}
+.center {
+    text-align: center;
+}
+.blue.center{
+    font-size: .4rem;
+}
+.footer-header {
+    font-size: .4rem;
+    color: #fff;
+    background-color: #f27671;
+    padding: 0.1rem 0;
+}
