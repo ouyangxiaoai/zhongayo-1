@@ -1,0 +1,83 @@
+.home-title {
+    margin: .3rem;
+    border: .01rem solid #ed6c00;
+    padding: .3rem .15rem .2rem;
+    color: #ed6c00;
+    position: relative;
+}
+.home-title span {
+    position: absolute;
+    width: .35rem;
+    height: .26rem;
+    background-color: #fff;
+    left: .4rem;
+    top: -0.13rem;
+}
+.home-title i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 0px;
+    height: 0px;
+    border-width: .24rem .13rem 0px;
+    border-style: solid;
+    border-color: #ed6c00 transparent transparent;
+}
+.part-1 {
+    
+}
+.part-1-title {
+    margin: .3rem auto;
+    color: #ed6c00;
+    text-align: center;
+    font-size: .32rem;
+    font-weight: bold;
+}
+.part-1 p {
+    padding: .15rem .3rem;
+    font-size: 0.28rem;
+}
+.black {
+    color: #000;
+}
+.home-p {
+    font-size: 0.36rem;
+    text-align: center;
+    
+}
+.part-1 .img {
+    padding: .15rem .3rem;
+}
+.art {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.yellow {
+    border: .01rem solid #fdc010;
+    margin: .2rem .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.yellow h3 {
+    width: 80%;
+    margin: .3rem auto;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: bold;
+    padding: .05rem .08rem;
+    background-color: #fdc010;
+}
+.grey-title {
+    margin: .3rem;
+    background-color: #f8f8f8;
+    padding: .3rem;
+    border: .01rem dashed #ccc;
+}
+.grey-title p {
+    padding: .1rem 0;
+}
